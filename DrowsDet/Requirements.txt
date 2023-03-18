@@ -1,3 +1,6 @@
+you can download this file from given link below:
+https://github.com/italojs/facial-landmarks-recognition/raw/master/shape_predictor_68_face_landmarks.dat
+
 Following modules you need to download before executing the code :
 
 @ pip install opencv-python
