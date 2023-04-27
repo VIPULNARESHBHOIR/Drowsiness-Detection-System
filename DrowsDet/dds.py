@@ -6,15 +6,15 @@ from scipy.spatial import distance
 import pyttsx3 
 
 
-eng=pyttsx3.init('sapi5')
-voice=eng.getProperty('voices')
-eng.setProperty('voices',voice[0].id)
-eng.setProperty('rate',190)
+engine=pyttsx3.init('sapi5')
+voice=engine.getProperty('voices')
+engine.setProperty('voices',voice[0].id)
+engine.setProperty('rate',190)
 
 
 def robo(text):
-    eng.say(text)
-    eng.runAndWait()
+    engine.say(text)
+    engine.runAndWait()
 
 
 def eye_aspect_ratio(eye):
