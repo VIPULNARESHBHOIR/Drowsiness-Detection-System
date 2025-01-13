@@ -1,0 +1,9 @@
+python 3.10.x
+tensorflow = 2.16.x or 2.17.x
+
+
+check without trainable false
+
+check without scaling input image
+
+try with another model 84.h5
